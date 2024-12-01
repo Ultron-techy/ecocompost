@@ -1,0 +1,188 @@
+body{
+  margin:0;
+  background-color: rgba(rgb(160, 172, 77));
+}
+#page-1 {
+  width: auto;
+  height: 50rem;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://i.pinimg.com/originals/fc/36/fa/fc36fa7816fe1847b3dcbc352f227a0f.jpg");
+  background-repeat: no-repeat;
+}
+#head {
+  font-family: "Protest Revolution", sans-serif;
+  font-size: 3rem;
+  position: fixed;
+  top: 0.25rem;
+  left: 4.2rem;
+  color: aliceblue;
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  width: 95rem;
+  height: 4.34rem;
+  background-color: black;
+  margin: 0;
+  border: solid black 0.5rem;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+.navbar {
+  width: 95rem;
+  height: 2.5rem;
+  background-color: rgb(55, 63, 41);
+  position: fixed;
+  top: 5.35rem;
+  margin: 0;
+  z-index: 2;
+}
+.ga {
+  text-decoration: none;
+  padding: 0.35rem;
+  color: white;
+  text-align: center;
+  position: inherit;
+  top: 5rem;
+  font-family: "Parkinsans", sans-serif;
+
+}
+.ga:hover {
+  color: black;
+  background-color: white;
+  border: solid white;
+  border-radius: 0.5rem;
+  font-family: "Parkinsans", sans-serif;
+}
+#img {
+  width: 3.5rem;
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+#img:hover{
+  background-color: aliceblue;
+  text-decoration: none;
+  border-radius: 3rem;
+}
+#sign {
+  position: fixed;
+  right: 5rem;
+  top: 1.7rem;
+  text-decoration: none;
+  color: aliceblue;
+  border: solid white 0.15rem;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  font-family: "Parkinsans", sans-serif;
+}
+#sign:hover {
+  background-color: aliceblue;
+  color: black;
+  border: solid black 0.15rem;
+  border-radius: 0.25rem;
+}
+#gu {
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+  top: 0.35rem;
+}
+#info{
+  width:20rem;
+  height:25rem;
+  position:absolute;
+  top:15rem;
+  left:35rem;
+  right:auto;
+  color:aliceblue;
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/927/405/268/leaves-dark-plant-green-wallpaper-preview.jpg');
+  z-index: 1;
+  border-radius: 0.5rem;
+}
+#h-2{
+  font-family: "Protest Revolution", sans-serif;
+  font-size:2rem;
+}
+.inf{
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color:aliceblue;
+  text-align: center;
+  padding:1rem;
+}
+#li{
+  color:white;
+  background-color: aliceblue;
+}
+#abt{
+     width:80rem;
+     height: auto;
+     background-color: antiquewhite;
+     margin:0;
+     padding:2rem;
+     position:absolute;
+     left:5.5rem;
+     font-family: "Exo 2", sans-serif;
+     border:solid black;
+     border-radius: 0.5rem;
+}
+.lin{
+  height:0.15rem;
+  width:80rem;
+  color:black;
+  margin:0;
+  background-color: black;
+}
+#sb{
+  width:80rem;
+  height: auto;
+  position:relative;
+  top:46rem;
+  left:5.5rem;
+  margin:0;
+  padding:2rem;
+  background-color: antiquewhite;
+  border:solid black;
+  border-radius: 0.5rem;
+  font-family: "Parkinsans", sans-serif;
+}
+#h3{
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+#seed{
+  width:35rem;
+  height: auto;
+  border:solid black;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+#cont{
+  width:94.9rem;
+  height:5rem;
+  position:absolute;
+  top:168.5rem;
+  bottom:0;
+  background-color: rgb(89, 55, 55);
+  color:aliceblue;
+  text-align: center;
+  margin:0;
+  padding:0;
+}
+#h8{
+  width:94.9rem;
+  height:2rem;
+  background-color: rgb(187, 187, 18);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color:aliceblue;
+  margin:0;
+  padding:0;
+}

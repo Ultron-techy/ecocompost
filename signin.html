@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      rel="icon"
+      href="images\favicon-16x16.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    #box {
+      width: 25rem;
+      height: 32rem;
+      border: solid black;
+      border-radius: 2rem;
+      position: fixed;
+      top: 5rem;
+      left: 35rem;
+    }
+    h2 {
+      font-family: "Sour Gummy", sans-serif;
+      font-size: 2.5rem;
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+    }
+    h4 {
+      font-family: "Sour Gummy", sans-serif;
+      font-size: 1rem;
+    }
+    .que {
+      font-family: "Nunito", sans-serif;
+      font-size: 2rem;
+    }
+    .ans {
+      width: 20rem;
+      height: 1.5rem;
+      border-radius: 0.5rem;
+      border: solid black 0.15rem;
+    }
+    #btn {
+      width: 15rem;
+      height: 2rem;
+      background-color: rgb(13, 131, 235);
+      border-radius: 1rem;
+      border: solid rgb(13, 131, 235);
+      color: aliceblue;
+    }
+    #btn:hover {
+      background-color: aliceblue;
+      border: solid black;
+      color: black;
+    }
+    .opt {
+      width: 7rem;
+      height: 1.5rem;
+      background-color: black;
+      border-radius: 0.5rem;
+      border: solid black;
+      text-decoration: none;
+      color: white;
+    }
+    .opt:hover {
+      background-color: aliceblue;
+      color: black;
+    }
+  </style>
+  <body>
+    <center>
+      <div id="box">
+        <h2>Sign-In</h2>
+        <h4>Preserve the nature...</h4>
+        <hr />
+        <form>
+          <label class="que">Name</label><br />
+          <input type="text" value="enter your name" class="ans" /><br /><br />
+          <label class="que">Email</label><br />
+          <input
+            type="email"
+            value="ecoCompost-hub@gmail.com"
+            class="ans"
+          /><br /><br />
+          <label class="que">Password </label><br />
+          <input type="password" class="ans" /><br /><br />
+          <input type="submit" value="Sign-in" id="btn" /><br /><br /><br />
+        </form>
+        <span>
+          <a href="" class="opt">Log-in</a>
+          <a href="ecocompost.html" class="opt">Home</a>
+        </span>
+      </div>
+    </center>
+  </body>
+</html>
